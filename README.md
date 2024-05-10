@@ -1,4 +1,4 @@
-<div aling="center">
+<div align="center">
 
    <img src= "mgt/foto.png" width="150px" height="180px">
 
