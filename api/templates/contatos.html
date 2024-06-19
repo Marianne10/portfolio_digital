@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %} Início {% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="/api/static/styles.css">
+<!--contatos-->
+<section class="contatos" id="contatos">
+    <h2>Entre em <samp> Contato</samp></h2>
+    <form action="">
+      <div class="input-box">
+        <input type="text" placeholder="nome completo">
+        <input type="email" placeholder="E-mail">
+      </div>
+      <div class="input-box">
+        <input type="number" placeholder="Telefone">
+        <input type="text" placeholder="Assunto">
+      </div>
+      <textarea cols="30" rows="8" placeholder="Mensagem"></textarea>
+      <a href="#" class="btn">Enviar</a>
+    </form>
+  </section>
+  <!--/contatos-->
+
+/CÓDIGO AQUI/
+{% endblock %}
